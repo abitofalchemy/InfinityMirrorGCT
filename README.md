@@ -19,6 +19,21 @@ Graph generators learn a model from a source graph in order to generate a new gr
 This code works with Python 2.7 and uses the HRG graph generator, BTER, 
 Chung-Lu, and Kronecker Product Graph.
 
+### HRG Graph generator
+Clone the following Project:
+[Probabilistic HRG](https://github.com/nddsg/PHRG.git) `github.com/nddsg/PHRG.git`
+
+## Example
+On macOS Sierra and Linux:
+
+* Clone this project
+* cd into this project and clone PHRG
+* `mkdir datasets && mkdir Results`
+* Download a test dataset:
+> # url = "http://konect.uni-koblenz.de/downloads/tsv/as20000102.tar.bz2"
+  # wget http://konect.uni-koblenz.de/downloads/tsv/as20000102.tar.bz2
+  # tar -xjf as20000102.tar.bz2 'as20000102/out.as20000102*'
+
 
 
 
