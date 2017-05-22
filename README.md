@@ -30,9 +30,10 @@ On macOS Sierra and Linux:
 * cd into this project and clone PHRG
 * `mkdir datasets && mkdir Results`
 * Download a test dataset:
-> # url = "http://konect.uni-koblenz.de/downloads/tsv/as20000102.tar.bz2"
-  # wget http://konect.uni-koblenz.de/downloads/tsv/as20000102.tar.bz2
-  # tar -xjf as20000102.tar.bz2 'as20000102/out.as20000102*'
+> url = "http://konect.uni-koblenz.de/downloads/tsv/as20000102.tar.bz2"
+  wget http://konect.uni-koblenz.de/downloads/tsv/as20000102.tar.bz2
+  tar -xjf as20000102.tar.bz2 'as20000102/out.as20000102'
+* jupyter notebook  # and open `InfinityMirrorTestsOnNetworksModels.ipynb`
 
 
 
