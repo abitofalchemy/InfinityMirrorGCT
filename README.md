@@ -35,10 +35,16 @@ On macOS Sierra and Linux:
   tar -xjf as20000102.tar.bz2 'as20000102/out.as20000102'
 * jupyter notebook  # and open `InfinityMirrorTestsOnNetworksModels.ipynb`
 
-## BETR
+## BETR Graph Model
 
 Download BTER code from [this link]( http://www.sandia.gov/~tgkolda/feastpack/doc_bter_match.html)
 
 Use `edgelist2mtx.py` to convert an edgelist to matrix (mtx Matlab) format.
 
-Load Matlab (command line mode) and use `bterpill.m` to feedback the generated graph as many times and you like. The current setting is to do 10 loops.
+Load Matlab (command line mode) and
+
+use `bterpill.m` to feedback the generated graph as many times and you like. The current setting is to do 10 loops. Then examine how the graph model has degenerated using network metrics (network analysis tools that measure things like degree distribution, and use network alignment method to compare a synthetic graph to the original… here you use GCD)
+
+## Kronecker Product Graph Model
+
+Then look at snap.stanford.edu  to learn a model of a network and generate synthetic graphs using kronfit/krongen …. there are Python bindings, but the C++ versions are faster depending on your input graph.
